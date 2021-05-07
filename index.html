@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="theme-color" content="#0157c3" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0157c3">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0157c3">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Js -->
+    <script src="js/index.js"></script>
+
+    <title>MUQEEM</title>
+
+</head>
+<body>
+
+
+    <!-- Nav Bar -->
+
+
+    <nav id="nav" class="bg navbar navbar-light bg-light container-fluid">
+        <div class="container-fluid d-flex flex-justify-between flex-justify-md-between flex-justify-sm-start flex-align-center">
+            <a href="index.html" id="white" class="navbar-brand text-dark">
+                <img src="icons/brand.svg" alt="icon" width="30" height="24" class="d-inline-block align-middle" />
+                MUQEEM
+            </a>
+            <div class="d-none d-md-inline-block">
+                <a href="index.html" class="nav-link d-inline-block">Home</a>
+                <a href="blog.html" class="nav-link d-inline-block">Blog</a>
+                <a href="services.html" class="nav-link d-inline-block">Services</a>
+                <a href="contact.html" class="nav-link d-inline-block">Contact</a>
+                <a href="about.html" class="nav-link d-inline-block">About</a>
+            </div>
+            <input type="checkbox" id="toggle" class="d-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <label for="toggle" class="d-md-none"><span></span><span></span><span class="last"></span></label>
+        </div>
+    </nav>
+
+
+    <!-- Mobile menu-->
+
+
+    <div class="modal fade mobile-menu" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog fs-2 py-4 modal-fullscreen d-flex flex-column flex-align-center flex-justify-center">
+            <div class="modal-content d-flex flex-column flex-align-center flex-justify-center text-center">
+                <div class="modal-header mb-2">
+                    <span class="modal-title fs-3 text-dark"><img src="icons/brand.svg" height="30" width="24" alt="" /></span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <a href="index.html" class="nav-link d-inline-block text-dark">Home</a>
+                <a href="blog.html" class="nav-link d-inline-block text-dark">Blog</a>
+                <a href="services.html" class="nav-link d-inline-block text-dark">Services</a>
+                <a href="contact.html" class="nav-link d-inline-block text-dark">Contact</a>
+                <a href="about.html" class="nav-link d-inline-block text-dark">About</a>
+                <div class="d-flex mx-auto p-4 flex-justify-center">
+                    <a class="mx-1" href="#"><img src="icons/social-icons/Facebook-round-color.svg" height="40" width="40" alt="" /></a>
+                    <a class="mx-1" href="#"><img src="icons/social-icons/pinterest-round-color.svg" height="40" width="40" alt="" /></a>
+                    <a class="mx-1" href="#"><img src="icons/social-icons/Instagram-round-color.svg" height="40" width="40" alt="" /></a>
+                    <a class="mx-1" href="#"><img src="icons/social-icons/LinkedIn-round-color.svg" height="40" width="40" alt="" /></a>
+                </div>
+                <div class="text-center">
+                    <h6>Our E-mail</h6>
+                    <h6>
+                        <a class="link mb-2 text-decoration-none" href="mailto:joe@example.com?subject=feedback">muqeem@example.com</a>
+                    </h6>
+                    <h6>Our Phone no.</h6>
+                    <h6>
+                        <a class="link mb-2 text-decoration-none" href="tel:+3344695569"> +33 344 695 569</a>
+                    </h6>
+                    <h6>
+                        Manhattan, New York
+                    </h6>
+                    <h6>
+                        United State
+                    </h6>
+                    <h6 class="mt-4">&copy; All rights reserved 2021 <a class="text-decoration-none text-dark" href="#">MUQEEM</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Home -->
+
+
+    <section class="home row">
+        <div class="col-4 d-none position-relative d-md-inline-block">
+            <h2 class="bold position-absolute top-50 translate-middle display-1">Muqeem</h2>
+        </div>
+        <div class="col-8 d-flex flex-column flex-md-row flex-column-reverse flex-align-center flex-justify-center bg-img">
+            <div class="img-box">
+                <img class="img d-inline-block" src="images/computer-2982270_1920.jpg" alt="" />
+            </div>
+            <div class="d-flex flex-align-center flex-justify-start">
+                <div class="box">
+                    <h1 class="display-6 text-capitalize text-light">Grow your business Online Now</h1>
+                    <p class="fs-6 lh-base text-light">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                    </p>
+                    <a href="contact.html" class="btn mt-3 py-1 px-3 text-capitalize">contact us &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+
+
+    <section class="services mt-4 pt-4 container-fluid">
+        <div class="d-block d-md-none margin">
+
+        </div>
+        <h1 class="d-block m-2 text-dark text-center text-capitalize fs-1 fw-light">Services we provide.</h1>
+        <div class="row my-4 mx-auto w-100 px-4">
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/mozy.png" alt="" /></figure>
+                <h3 class="text-center d-block text-dark fs-5">UI Design</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/software-development.svg" alt="" /></figure>
+                <h3 class="text-center d-block text-dark fs-5">Web Development</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/app.svg" alt="" /></figure>
+                <h3 class="text-center k text-dark fs-5">App development</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+        </div>
+        <div class="row my-4 mx-auto w-100 px-4">
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/Seo.svg" alt="" /></figure>
+                <h3 class="text-center d-block text-dark fs-5">Website testing</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/host.svg" alt="" /></figure>
+                <h3 class="text-center d-block text-dark fs-5">Servers Security</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+            <div class="col-12 p-4 d-flex flex-column flex-justify-center flex-align-center col-md-4 mx-auto p-2">
+                <figure class="d-inline-block mx-auto"><img class="img-fluid" src="icons/security.svg" alt="" /></figure>
+                <h3 class="text-center k text-dark fs-5">Web Security</h3>
+                <p class="fs-6 text-center lh-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus enim orci.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+
+
+    <section class="about py-4 text-light container-fluid">
+        <h1 class="display-4 my-2 text-capitalize text-center">About us</h1>
+        <div class="row m-3">
+            <div class="col-12 col-md-6">
+            </div>
+            <div class="text my-2 col-12 col-md-6">
+                <h3 class="display-6 text-capitalize">who are we</h3>
+                <p class="fs-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus eros in libero fermentum, at mollis nisi interdum.
+                </p>
+                <a href="about.html" class="text-dark btn bg-light py-1 px-3 text-capitalize">know more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Clients -->
+
+
+    <section class="clients container-fluid">
+        <h1 class="text-center my-4 display-4">Our Clients</h1>
+        <div class="row">
+            <img class="col-6 col-md-4 img-fluid" src="images/images.png" height="auto" width="100" alt="logo image" />
+            <img class="col-6 col-md-4 img-fluid" src="images/images(1).png" height="auto" width="100" alt="logo image" />
+            <img class="col-6 col-md-4 img-fluid" src="images/images(2).png" height="auto" width="100" alt="logo image" />
+            <img class="col-6 col-md-4 img-fluid" src="images/images(3).png" height="auto" width="100" alt="logo image" />
+            <img class="col-6 col-md-4 img-fluid" src="images/images(4).png" height="auto" width="100" alt="logo image" />
+            <img class="col-6 col-md-4 img-fluid" src="images/flooop.png" height="auto" width="100" alt="logo image" />
+        </div>
+    </section>
+
+
+    <!-- Why choose us -->
+
+
+    <section class="mt-3 container-fluid d-flex flex-column flex-md-row flex-align-center flex-justify-center flex-wrap">
+        <div class="mx-auto" style="width:340px; overflow:hidden;">
+            <img class="img-fluid" style="width:340px; height:280px;" src="images/choose/choose.png" alt="" />
+        </div>
+        <div class="mx-auto my-2" style="width:340px; overflow:hidden;">
+            <h4 class="mt-2">Why Choose Us?</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus eros in libero fermentum, at mollis nisi interdum. Pellentesque faucibus ipsum purus, vitae ultricies dolor varius vitae. Vivamus eget turpis efficitur, vulputate massa id, fermentum lacus.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+
+
+    <section class="blog my-4 container-fluid">
+        <h1 class="fs-1 my-2 text-center">Our Blog</h1>
+        <div class="container mx-auto row">
+            <div class="col-12 col-md-6 p-4">
+                <a class="post btn" href="post.html">
+                    <figure class="d-flex w-100"><img class="mx-auto img-fluid" src="images/nodejs.png" alt="post-img" /></figure>
+                    <div class="p-2 text-left">
+                        <span class="date"><small>20-Jan-2021</small></span>
+                        <h2 class="fs-4 text-capitalize">What is node js</h2>
+                        <p class="fs-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus eros in libero fermentum, at mollis nisi interdum. Pellentesque faucibus ipsum purus, fermentum lacus.
+                        </p>
+                        <div class="like-post" style="width:100%">
+                            <hr />
+                            <div class="mx-auto">
+                                <small> 16k </small>
+                                <img class="" src="icons/blog/heart-black.svg" alt="" height="12" />
+                                <small> and 360 comments</small>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 p-4">
+                <a class="post btn" href="post.html">
+                    <figure class="d-block w-100"><img class="mx-auto img-fluid" src="images/django.png" alt="post-img" /></figure>
+                    <div class="p-2 text-left">
+                        <span class="date"><small>21-Jan-2021</small></span>
+                        <h2 class="fs-4 text-capitalize">What is Django</h2>
+                        <p class="fs-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus eros in libero fermentum, at mollis nisi interdum. Pellentesque faucibus ipsum purus, fermentum lacus.
+                        </p>
+                        <div class="like-post" style="width:100%">
+                            <hr />
+                            <div class="mx-auto">
+                                <small> 16k </small>
+                                <img class="" src="icons/blog/heart-black.svg" alt="" height="12" />
+                                <small> and 360 comments</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Order -->
+
+
+    <section class="order container-fluid text-center p-4">
+        <div class="container p-4 mx-auto">
+            <h1 class="display-3 text-capitalize d-block">Order us for great result</h1>
+            <p class="fs-6 d-block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus eros in libero fermentum, at mollis nisi interdum.
+            </p>
+            <a href="contact.html" class="btn btn-primary my-2 mx-auto py-1 px-3 text-light text-capitalize">Contact Us &#8594;</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+
+    <footer class="container-fluid text-light">
+        <div class="container-fluid mx-auto my-4 row">
+
+            <div class="col-12 mt-4 text-left col-md-4">
+                <h4 class="fs-6 fw-bold text-capitalize">useful links</h4>
+                <a href="link" class="text-decoration-none d-block fs-6">Developer support</a>
+                <a href="link" class="text-decoration-none d-block fs-6">Site Map</a>
+                <a href="link" class="text-decoration-none d-block fs-6">Contact us</a>
+                <a href="link" class="text-decoration-none d-block fs-6">FAQs</a>
+                <a href="link" class="text-decoration-none d-block fs-6">About us</a>
+            </div>
+            <div class="col-12 my-4 text-left col-md-4">
+                <h4 class="fs-6 fw-bold text-capitalize">follow us</h4>
+                <a href="link" class="text-decoration-none d-block fs-6">Facebook</a>
+                <a href="link" class="text-decoration-none d-block fs-6">Instagram</a>
+                <a href="link" class="text-decoration-none d-block fs-6">Tumblr</a>
+                <a href="link" class="text-decoration-none d-block fs-6">LinkedIn</a>
+                <a href="link" class="text-decoration-none d-block fs-6">Google +</a>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="d-flex flex-align-center flex-column">
+                    <h3 class="my-2 text-capitalize">get notifications</h3>
+                    <form action="" method="" accept-charset="utf-8">
+                        <input type="email" name="email" id="email" value="" class="mb-2" autocomplete="off" placeholder="Email" />
+                        <button type="submit" id="btns" class="bg-primary text-decoration-none px-3 py-1 text-light">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright container-fluid py-4 text-center">
+            <p>
+                &copy; alright reserved 2021 <a href="index.html" class="text-decoration-none text-light"> MUQEEM</a>
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
